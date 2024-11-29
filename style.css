@@ -45,6 +45,7 @@ section{
   background: linear-gradient(135deg, #419e67 0%, #114941 100%);
   text-align: center;
   border-radius: 5px;
+  border: 1px solid #f1f7f6;
 }
 
 .box p.nome{
@@ -65,4 +66,29 @@ section{
   border: 2px solid #55c596 ;
   border-radius: 5px;
   font-weight: bold;
+}
+
+@media (max-width: 700px){
+  body{
+    min-height: 50vh;
+    text-align: center;
+  }
+  h1{
+    font-size: 3rem;
+    margin-bottom: 10vh;
+    margin-top: 7vh;
+  }
+  
+  .menu{
+    grid-template-columns: 1fr;
+  }
+
+  .menu > *{
+    padding: 1rem;
+  }
+
+  .menu, .box{
+    grid-column: 1;
+    grid-gap: 10px;
+  }
 }
