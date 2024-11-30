@@ -44,7 +44,7 @@ section{
   grid-template-rows: 1fr 1fr;
   background: linear-gradient(135deg, #419e67 0%, #114941 100%);
   text-align: center;
-  border-radius: 5px;
+  border-radius: 8px;
   border: 1px solid #f1f7f6;
 }
 
@@ -61,11 +61,12 @@ section{
   grid-column: 2;
   grid-row: 2;
   background-color: #f9f7f2;
-  color: #55c596;
+  color: #55c999;
   padding-top: 12px;
   border: 2px solid #55c596 ;
-  border-radius: 5px;
+  border-radius: 50px;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 700px){
